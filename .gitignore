@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# The dataset is 66 MB / 284k rows — not redistributed here.
+# Download it from Kaggle (see README).
+data/raw/*
+!data/raw/.gitkeep
